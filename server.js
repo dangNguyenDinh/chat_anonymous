@@ -4,7 +4,7 @@ const http = require('http');
 const { Server } = require('socket.io');
 //mongodb+srv://konan:MxF5dRjwTsQ3jBLZ@cluster0.njam8.mongodb.net/
 // Kết nối MongoDB
-const url = 'mongodb://127.0.0.1:27017';
+const url = 'mongodb+srv://konan:MxF5dRjwTsQ3jBLZ@cluster0.njam8.mongodb.net/';
 const dbName = 'konan_db';
 const client = new MongoClient(url);
 
