@@ -1,0 +1,29 @@
+# Thư mục node_modules (nơi chứa các package đã cài)
+node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# File tạm
+*.tmp
+*.temp
+
+# File môi trường (thường chứa thông tin nhạy cảm như API keys)
+.env
+
+# Thư mục build
+dist/
+build/
+
+# Cache của ứng dụng
+.cache/
+out/
+
+# Hệ điều hành và IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
